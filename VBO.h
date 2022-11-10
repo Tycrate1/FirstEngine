@@ -8,6 +8,7 @@ public:
 	//Id is the vbo object
 	GLuint ID;
 	VBO(GLfloat* vertices, GLsizeiptr size);
+	VBO();
 
 	void Bind();
 	void Unbind();
